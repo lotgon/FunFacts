@@ -1,0 +1,21 @@
+---
+title: "Nobel Prize by countery and population"
+author: "Andrei Pazniak"
+date: "January 31, 2016"
+output: html_document
+---
+
+Lets download data for nobel prize to nb.txt. Ref http://www.nobelprize.org/nomination/archive/country.php
+Statistics based on 1900-1960 years
+
+```{r}
+require(data.table)
+d<-fread("E:\\Temp\\nb.txt")
+write.csv( d[order(-Nominator)][1:10,.(country, Nominator)], "E:\\Temp\\nb2.txt")
+```
+
+Add current population for each country manually
+```{r}
+d2<-fread("E:\\Temp\\nb2.txt")
+d2[order(coef)]
+```

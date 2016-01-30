@@ -1,0 +1,13 @@
+    V1        country Nominator Population       coef
+ 1:  4         SWEDEN      1577        9.8   6214.331
+ 2:  8         NORWAY       674        5.2   7715.134
+ 3:  7    SWITZERLAND       778        8.3  10668.380
+ 4:  9        AUSTRIA       533        8.5  15947.467
+ 5:  3         FRANCE      2271       65.0  28621.753
+ 6:  1        GERMANY      2577       80.0  31043.849
+ 7: 10    NETHERLANDS       486       16.9  34773.663
+ 8:  5 UNITED KINGDOM      1276       65.0  50940.439
+ 9:  6          ITALY       838       59.0  70405.728
+10:  2  UNITED STATES      2458      330.0 134255.492
+
+Sweden! Norway Switzerland! congrats!
